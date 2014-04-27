@@ -8,6 +8,7 @@ import android.widget.Button;
 import com.example.PryDialogos.Dialogos.DialogoAlerta;
 import com.example.PryDialogos.Dialogos.DialogoConfirmacion;
 import com.example.PryDialogos.Dialogos.DialogoSeleccion1;
+import com.example.PryDialogos.Dialogos.DialogoSeleccion2;
 
 public class MainActivity extends FragmentActivity implements View.OnClickListener{
 
@@ -64,6 +65,9 @@ public class MainActivity extends FragmentActivity implements View.OnClickListen
                 dialogo3.show(fragmentManager3,"dialogoSeleccion1");
                 break;
             case R.id.idBtnDialogoSeleccion2:
+                FragmentManager fragmentManager4 = getSupportFragmentManager();
+                DialogoSeleccion2 dialogo4 = new DialogoSeleccion2();
+                dialogo4.show(fragmentManager4,"dialogoSeleccion2");
                 break;
             case R.id.idBtnDialogoSeleccion3:
                 break;
