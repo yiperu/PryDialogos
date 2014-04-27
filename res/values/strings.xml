@@ -1,4 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">MainActivity</string>
+    <string name="app_name">PryDialogos</string>
+
+
+    <string name="strTitulo">Cuadros de Dialogos</string>
+    <string name="strDialogosDeAlerta">Diálogo de Alerta</string>
+    <string name="strDialogoDeConfirmacion">Diálogo de Confirmación</string>
+    <string name="strDialogoDeSeleccion1">Diálogo de Selección 1</string>
+    <string name="strDialogoDeSeleccion2">Diálogo de Selección 2</string>
+    <string name="strDialogoDeSeleccion3">Diálogo de Selección 3</string>
+    <string name="strDialogosPersonalizados">Diálogos Personalizados</string>
+
+
 </resources>

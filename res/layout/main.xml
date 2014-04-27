@@ -1,13 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    >
-<TextView
-    android:layout_width="fill_parent"
-    android:layout_height="wrap_content"
-    android:text="Hello World, MainActivity"
-    />
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+        >
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/strTitulo"
+            />
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/strDialogosDeAlerta"
+            android:id="@+id/idBtnDialogoAlerta" android:layout_gravity="center"/>
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/strDialogoDeConfirmacion"
+            android:id="@+id/idBtnDialogoConfirmacion"/>
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/strDialogoDeSeleccion1"
+            android:id="@+id/idBtnDialogoSeleccion1"/>
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/strDialogoDeSeleccion2"
+            android:id="@+id/idBtnDialogoSeleccion2" android:layout_gravity="center"/>
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/strDialogoDeSeleccion3"
+            android:id="@+id/idBtnDialogoSeleccion3" android:layout_gravity="right|center_vertical"/>
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/strDialogosPersonalizados"
+            android:id="@+id/idBtnDialogoPersonalizado"/>
 </LinearLayout>
 
