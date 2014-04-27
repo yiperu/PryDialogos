@@ -7,6 +7,7 @@ import android.widget.Button;
 
 public class MainActivity extends FragmentActivity implements View.OnClickListener{
 
+    // Declaramos los botones
     Button btnDialogoAlerta=null;
     Button btnDialogoConfirmacion =null;
     Button btnDialogoSeleccion1 = null;
@@ -14,11 +15,21 @@ public class MainActivity extends FragmentActivity implements View.OnClickListen
     Button btnDialogoSeleccion3 = null;
     Button btnDialogoPersonalizado = null;
 
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
 
+        // Enlazamos los Botones
+        btnDialogoAlerta =(Button)findViewById(R.id.idBtnDialogoAlerta);
+        btnDialogoConfirmacion = (Button)findViewById(R.id.idBtnDialogoConfirmacion);
+        btnDialogoSeleccion1 = (Button)findViewById(R.id.idBtnDialogoSeleccion1);
+        btnDialogoSeleccion2 = (Button)findViewById(R.id.idBtnDialogoSeleccion2);
+        btnDialogoSeleccion3 = (Button)findViewById(R.id.idBtnDialogoSeleccion3);
+        btnDialogoPersonalizado = (Button)findViewById(R.id.idBtnDialogoPersonalizado);
+
+        // Configuramos los eventos Touch de los botones
         btnDialogoAlerta.setOnClickListener(this);
         btnDialogoConfirmacion.setOnClickListener(this);
         btnDialogoSeleccion1.setOnClickListener(this);
@@ -26,10 +37,12 @@ public class MainActivity extends FragmentActivity implements View.OnClickListen
         btnDialogoSeleccion3.setOnClickListener(this);
         btnDialogoPersonalizado.setOnClickListener(this);
 
+
     }
 
     @Override
     public void onClick(View v) {
+
         switch (v.getId()) {
             case R.id.idBtnDialogoAlerta:
                 break;
