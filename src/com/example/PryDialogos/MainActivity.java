@@ -2,8 +2,10 @@ package com.example.PryDialogos;
 
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
+import android.support.v4.app.FragmentManager;
 import android.view.View;
 import android.widget.Button;
+import com.example.PryDialogos.Dialogos.DialogoAlerta;
 
 public class MainActivity extends FragmentActivity implements View.OnClickListener{
 
@@ -45,6 +47,9 @@ public class MainActivity extends FragmentActivity implements View.OnClickListen
 
         switch (v.getId()) {
             case R.id.idBtnDialogoAlerta:
+                FragmentManager fragmentManager = getSupportFragmentManager();
+                DialogoAlerta dialogo = new DialogoAlerta();
+                dialogo.show(fragmentManager,"dialogAlerta");
                 break;
             case R.id.idBtnDialogoConfirmacion:
                 break;

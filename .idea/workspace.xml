@@ -24,7 +24,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb651880-8336-482c-b3c0-cb336e17fb04" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/PryDialogos/Dialogos/DialogoAlerta.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/PryDialogos/MainActivity.java" afterPath="$PROJECT_DIR$/src/com/example/PryDialogos/MainActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -32,9 +32,10 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/strings.xml" changelist="cb651880-8336-482c-b3c0-cb336e17fb04" time="1398566264373" ignored="false" />
     <file path="/main.xml" changelist="cb651880-8336-482c-b3c0-cb336e17fb04" time="1398569554541" ignored="false" />
-    <file path="/MainActivity.java" changelist="cb651880-8336-482c-b3c0-cb336e17fb04" time="1398571079341" ignored="false" />
+    <file path="/MainActivity.java" changelist="cb651880-8336-482c-b3c0-cb336e17fb04" time="1398572347954" ignored="false" />
     <file path="$USER_HOME$/Copy_android_cli/cp00/Clayster.Client.Meta.Android/Trunk/ui/gen/clayster/client/meta/android/ui/R.java" changelist="cb651880-8336-482c-b3c0-cb336e17fb04" time="1398566834905" ignored="false" />
     <file path="/Dummy.txt" changelist="cb651880-8336-482c-b3c0-cb336e17fb04" time="1398570538524" ignored="false" />
+    <file path="/DialogoAlerta.java" changelist="cb651880-8336-482c-b3c0-cb336e17fb04" time="1398572041873" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,9 +99,22 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/example/PryDialogos/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="41" selection-start="163" selection-end="163" vertical-scroll-proportion="0.25373134">
+            <state line="56" column="83" selection-start="2182" selection-end="2182" vertical-scroll-proportion="0.76119405">
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DialogoAlerta.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/PryDialogos/Dialogos/DialogoAlerta.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="31" selection-start="285" selection-end="285" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#704#891#0" expanded="true" />
+                <element signature="e#880#881#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -148,13 +162,14 @@
         <option value="$PROJECT_DIR$/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/res/layout/main.xml" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/src/com/example/PryDialogos/Dialogos/DialogoAlerta.java" />
         <option value="$PROJECT_DIR$/src/com/example/PryDialogos/MainActivity.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="11" />
-    <option name="y" value="16" />
+    <option name="x" value="91" />
+    <option name="y" value="7" />
     <option name="width" value="1339" />
     <option name="height" value="711" />
   </component>
@@ -230,43 +245,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="values" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PryDialogos" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="PryDialogos" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PryDialogos" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PryDialogos" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
+              <option name="myItemId" value="Dialogos" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -296,6 +283,24 @@
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
       <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
@@ -452,7 +457,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="11" y="16" width="1339" height="711" extended-state="0" />
+    <frame x="91" y="7" width="1339" height="711" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991454" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -596,9 +601,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/PryDialogos/Dialogos/DialogoAlerta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="31" selection-start="285" selection-end="285" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#704#891#0" expanded="true" />
+            <element signature="e#880#881#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/PryDialogos/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="41" selection-start="163" selection-end="163" vertical-scroll-proportion="0.25373134">
+        <state line="56" column="83" selection-start="2182" selection-end="2182" vertical-scroll-proportion="0.76119405">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
