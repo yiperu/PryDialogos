@@ -24,7 +24,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb651880-8336-482c-b3c0-cb336e17fb04" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/PryDialogos/Dialogos/DialogoAlerta.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/PryDialogos/Dialogos/DialogoConfirmacion.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/PryDialogos/Dialogos/DialogoSeleccion1.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/PryDialogos/Dialogos/DialogoSeleccion2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/PryDialogos/Dialogos/DialogoSeleccion3.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/PryDialogos/MainActivity.java" afterPath="$PROJECT_DIR$/src/com/example/PryDialogos/MainActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -32,10 +35,12 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/strings.xml" changelist="cb651880-8336-482c-b3c0-cb336e17fb04" time="1398566264373" ignored="false" />
     <file path="/main.xml" changelist="cb651880-8336-482c-b3c0-cb336e17fb04" time="1398569554541" ignored="false" />
-    <file path="/MainActivity.java" changelist="cb651880-8336-482c-b3c0-cb336e17fb04" time="1398572347954" ignored="false" />
+    <file path="/MainActivity.java" changelist="cb651880-8336-482c-b3c0-cb336e17fb04" time="1398576705940" ignored="false" />
     <file path="$USER_HOME$/Copy_android_cli/cp00/Clayster.Client.Meta.Android/Trunk/ui/gen/clayster/client/meta/android/ui/R.java" changelist="cb651880-8336-482c-b3c0-cb336e17fb04" time="1398566834905" ignored="false" />
     <file path="/Dummy.txt" changelist="cb651880-8336-482c-b3c0-cb336e17fb04" time="1398570538524" ignored="false" />
     <file path="/DialogoAlerta.java" changelist="cb651880-8336-482c-b3c0-cb336e17fb04" time="1398572041873" ignored="false" />
+    <file path="/DialogoConfirmacion.java" changelist="cb651880-8336-482c-b3c0-cb336e17fb04" time="1398574719722" ignored="false" />
+    <file path="/DialogoSeleccion1.java" changelist="cb651880-8336-482c-b3c0-cb336e17fb04" time="1398576853470" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,12 +101,39 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MainActivity.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/PryDialogos/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="83" selection-start="2182" selection-end="2182" vertical-scroll-proportion="0.76119405">
+            <state line="53" column="55" selection-start="2135" selection-end="2135" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DialogoSeleccion1.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/example/PryDialogos/Dialogos/DialogoSeleccion1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="32" column="32" selection-start="1099" selection-end="1099" vertical-scroll-proportion="0.70520234">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#745#1005#0" expanded="true" />
+                <element signature="e#986#987#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DialogoConfirmacion.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/PryDialogos/Dialogos/DialogoConfirmacion.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="36" column="97" selection-start="1384" selection-end="1384" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#766#1060#0" expanded="true" />
+                <element signature="e#1041#1042#0" expanded="true" />
+                <element signature="e#1108#1402#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -110,7 +142,7 @@
       <file leaf-file-name="DialogoAlerta.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/PryDialogos/Dialogos/DialogoAlerta.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="31" selection-start="285" selection-end="285" vertical-scroll-proportion="0.0">
+            <state line="15" column="49" selection-start="400" selection-end="422" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#704#891#0" expanded="true" />
@@ -163,13 +195,15 @@
         <option value="$PROJECT_DIR$/res/layout/main.xml" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/src/com/example/PryDialogos/Dialogos/DialogoAlerta.java" />
+        <option value="$PROJECT_DIR$/src/com/example/PryDialogos/Dialogos/DialogoConfirmacion.java" />
         <option value="$PROJECT_DIR$/src/com/example/PryDialogos/MainActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/example/PryDialogos/Dialogos/DialogoSeleccion1.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="91" />
-    <option name="y" value="7" />
+    <option name="x" value="547" />
+    <option name="y" value="47" />
     <option name="width" value="1339" />
     <option name="height" value="711" />
   </component>
@@ -457,7 +491,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="91" y="7" width="1339" height="711" extended-state="0" />
+    <frame x="547" y="47" width="1339" height="711" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991454" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -470,13 +504,13 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991454" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991454" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32851985" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991454" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24980423" sideWeight="0.65162456" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34837544" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24980423" sideWeight="0.6714801" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34837544" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967892" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967892" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -603,7 +637,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/PryDialogos/Dialogos/DialogoAlerta.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="31" selection-start="285" selection-end="285" vertical-scroll-proportion="0.0">
+        <state line="15" column="49" selection-start="400" selection-end="422" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#704#891#0" expanded="true" />
@@ -612,11 +646,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/PryDialogos/MainActivity.java">
+    <entry file="file://$PROJECT_DIR$/src/com/example/PryDialogos/Dialogos/DialogoConfirmacion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="83" selection-start="2182" selection-end="2182" vertical-scroll-proportion="0.76119405">
+        <state line="36" column="97" selection-start="1384" selection-end="1384" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#766#1060#0" expanded="true" />
+            <element signature="e#1041#1042#0" expanded="true" />
+            <element signature="e#1108#1402#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/PryDialogos/Dialogos/DialogoSeleccion2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="30" selection-start="235" selection-end="235" vertical-scroll-proportion="0.47076923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/PryDialogos/Dialogos/DialogoSeleccion3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="30" selection-start="235" selection-end="235" vertical-scroll-proportion="0.47076923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/PryDialogos/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="55" selection-start="2135" selection-end="2135" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/PryDialogos/Dialogos/DialogoSeleccion1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="32" selection-start="1099" selection-end="1099" vertical-scroll-proportion="0.70520234">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#745#1005#0" expanded="true" />
+            <element signature="e#986#987#0" expanded="true" />
           </folding>
         </state>
       </provider>
